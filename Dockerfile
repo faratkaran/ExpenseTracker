@@ -9,3 +9,4 @@ RUN ./mvnw clean package
 EXPOSE 8080
 
 CMD ["java", "-jar", "target/*SNAPSHOT.jar"]
+
